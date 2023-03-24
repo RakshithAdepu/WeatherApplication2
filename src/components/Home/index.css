@@ -1,0 +1,270 @@
+@media only screen and (min-width: 900px) {
+  .background_image_day {
+    background-image: url("https://res.cloudinary.com/dvm3hga6j/image/upload/v1679552508/Rectangle_1_1x_g1dvju.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .background_image_night {
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("https://res.cloudinary.com/dvm3hga6j/image/upload/c_scale,h_905,w_1512/v1679599635/pexels-james-wheeler-1539225_olx4sh.jpg");
+  }
+
+  .nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .home_nav {
+    margin-left: 20vw;
+  }
+
+  .news_nav {
+    margin-right: 20vw;
+  }
+
+  .weather_score_cont {
+    width: 516px;
+    height: 348px;
+
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 255, 255, 0.08) 100%
+    );
+    opacity: 0.8;
+    backdrop-filter: blur(20px);
+
+    border-radius: 10px;
+
+    margin-left: 55vw;
+    margin-top: 20vh;
+    color: #ffffff;
+
+    font-family: "Poppins";
+  }
+
+  .weather_details_heading {
+    margin-left: 70px;
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .weather_details_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .weather_dea_para {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .tempertaure_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    color: white;
+  }
+
+  .temperature {
+    width: 151px;
+    height: 192px;
+    left: 107px;
+    top: 669px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 128px;
+    line-height: 192px;
+  }
+
+  .degree {
+    width: 31px;
+    height: 72px;
+    left: 258px;
+    top: 669px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 100px;
+  }
+
+  .location {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5vh;
+    margin-left: 1vw;
+  }
+  .timings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5vh;
+  }
+
+  .temperature_para {
+    padding: 10px;
+  }
+
+  .sun_logo {
+    width: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .background_image_day {
+    background-image: url("https://res.cloudinary.com/dvm3hga6j/image/upload/v1679552508/Rectangle_1_1x_g1dvju.png");
+    background-size: cover;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .background_image_night {
+    background-size: cover;
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("https://res.cloudinary.com/dvm3hga6j/image/upload/c_scale,h_905,w_1512/v1679599635/pexels-james-wheeler-1539225_olx4sh.jpg");
+  }
+
+  .nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .weather_score_cont {
+    width: 240px;
+    height: 300px;
+
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 255, 255, 0.08) 100%
+    );
+    opacity: 0.8;
+    backdrop-filter: blur(20px);
+
+    border-radius: 10px;
+
+    margin-left: 60px;
+
+    color: #ffffff;
+    font-family: "Poppins";
+  }
+
+  .weather_details_heading {
+    margin-left: 40px;
+    margin-top: 10vh;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .weather_details_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .weather_dea_para {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .tempertaure_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    color: white;
+    margin-left: 30vw;
+  }
+
+  .temperature {
+    width: 151px;
+    height: 192px;
+    left: 107px;
+    top: 669px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 128px;
+    line-height: 192px;
+  }
+
+  .degree {
+    width: 31px;
+    height: 72px;
+    left: 258px;
+    top: 669px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 100px;
+  }
+
+  .location {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5vh;
+    margin-left: 1vw;
+  }
+  .timings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5vh;
+  }
+
+  .temperature_para {
+    padding: 10px;
+  }
+  .sun_logo {
+    width: 30px;
+  }
+}

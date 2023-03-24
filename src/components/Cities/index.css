@@ -1,0 +1,290 @@
+@media only screen and (min-width: 900px) {
+  .Cities_title {
+    width: 138px;
+    height: 72px;
+    left: 687px;
+    top: 1025px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+    color: #110041;
+
+    padding-top: 15vh;
+    margin-left: 44vw;
+  }
+
+  .cities_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .cities_sub_cont {
+    width: 337px;
+    height: 453.17px;
+    left: 234px;
+    top: 1058.83px;
+
+    background: #ffffff;
+    box-shadow: 0px 16px 69px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+  }
+
+  .thunder {
+    width: 337px;
+    height: 314px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    background: url("https://res.cloudinary.com/dvm3hga6j/image/upload/c_scale,w_337/v1679582817/Rectangle_7_1xthunder_bo5got.png");
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .cloudy {
+    width: 337px;
+    height: 314px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    background: url("https://res.cloudinary.com/dvm3hga6j/image/upload/c_scale,h_314,w_337/v1679604729/pexels-lukas-rodriguez-5618463_t3k0z5.jpg");
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .sunny {
+    width: 337px;
+    height: 314px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    background: url("https://res.cloudinary.com/dvm3hga6j/image/upload/c_scale,w_337/v1679604187/Rectangle_9_1xcloudy_lemkdg.png");
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .name_sign {
+    width: 118.47px;
+    height: 41.41px;
+    left: 271.96px;
+    top: 1309.57px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #ffffff;
+  }
+  .cities_temp {
+    width: 92.01px;
+    height: 110.42px;
+    left: 271.96px;
+    top: 1385.48px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+
+    color: #000000;
+  }
+  .cities_deg {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-right: 13vw;
+    margin-bottom: 14vh;
+
+    color: #000000;
+  }
+  .cities_together_temp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .cities_name {
+    width: 71.31px;
+    height: 41.41px;
+    left: 459.43px;
+    top: 1408.48px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #000000;
+  }
+
+  .cities_date {
+    width: 73.61px;
+    height: 27.6px;
+    left: 459.43px;
+    top: 1444.14px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+  }
+
+  .cities_together_date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Cities_title {
+    width: 138px;
+    height: 72px;
+    left: 687px;
+    top: 1025px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+    color: #110041;
+
+    padding-top: 5vh;
+    margin-left: 30vw;
+  }
+
+  .cities_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .cities_sub_cont {
+    width: 337px;
+    height: 453.17px;
+    left: 234px;
+    top: 1058.83px;
+
+    background: #ffffff;
+    box-shadow: 0px 16px 69px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+  }
+
+  .thunder {
+    width: 337px;
+    height: 314px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: url("https://res.cloudinary.com/dvm3hga6j/image/upload/c_scale,w_337/v1679582817/Rectangle_7_1xthunder_bo5got.png");
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .name_sign {
+    width: 118.47px;
+    height: 41.41px;
+    left: 271.96px;
+    top: 1309.57px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #ffffff;
+  }
+  .cities_temp {
+    width: 92.01px;
+    height: 110.42px;
+    left: 271.96px;
+    top: 1385.48px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+
+    color: #000000;
+  }
+  .cities_deg {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-right: 30vw;
+    margin-bottom: 20vh;
+
+    color: #000000;
+  }
+  .cities_together_temp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .cities_together_date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20vw;
+    margin-bottom: 20vh;
+  }
+  .cloudy {
+    width: 337px;
+    height: 314px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    background: url("https://res.cloudinary.com/dvm3hga6j/image/upload/c_scale,h_314,w_337/v1679604729/pexels-lukas-rodriguez-5618463_t3k0z5.jpg");
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .sunny {
+    width: 337px;
+    height: 314px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    background: url("https://res.cloudinary.com/dvm3hga6j/image/upload/c_scale,w_337/v1679604187/Rectangle_9_1xcloudy_lemkdg.png");
+    border-radius: 10px 10px 0px 0px;
+  }
+}

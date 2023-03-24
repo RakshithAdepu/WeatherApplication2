@@ -1,0 +1,69 @@
+@media only screen and (min-width: 900px) {
+  .footer_cont {
+    width: 1605px;
+    height: 422px;
+    left: -47px;
+    top: 3348px;
+    color: #ffffff;
+    font-family: "Phenomicon";
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    background: #000000;
+  }
+  .weatherapp_title {
+    width: 141px;
+    height: 36px;
+    left: 137px;
+    top: 3422px;
+
+    font-family: "Phenomicon";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height */
+    padding: 20vh;
+    margin-right: 20vw;
+  }
+  .home_details {
+    margin-right: 10vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer_cont {
+    width: 510px;
+    height: 700px;
+
+    color: #ffffff;
+    font-family: "Phenomicon";
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #000000;
+  }
+  .weatherapp_title {
+    width: 141px;
+    height: 36px;
+    left: 137px;
+    top: 3422px;
+
+    font-family: "Phenomicon";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height */
+    padding: 20vh;
+    margin-right: 20vw;
+  }
+  .home_details {
+    margin-right: 10vw;
+  }
+}

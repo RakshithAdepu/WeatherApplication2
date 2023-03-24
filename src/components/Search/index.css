@@ -1,0 +1,200 @@
+@media only screen and (min-width: 900px) {
+  .input_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20vh;
+  }
+
+  .button_input {
+    border: 1px solid transparent;
+    background-color: white;
+  }
+  .input_search {
+    width: 661px;
+    height: 76px;
+    background: #ffffff;
+    box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    padding: 20px;
+
+    color: rgba(0, 0, 0, 0.4);
+  }
+  .earch_cont {
+    width: 1512px;
+    height: 711px;
+    left: 0px;
+    top: 1895px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background: #010101;
+  }
+  .earch_img {
+    background: url("https://res.cloudinary.com/dvm3hga6j/image/upload/v1679652267/image_1_1xearth_zy21gw.png");
+    width: 712px;
+    height: 712px;
+  }
+
+  .tempet_search {
+    color: #ffffff;
+  }
+  .result_cont {
+    width: 550px;
+    height: 300px;
+    padding: 20vh;
+    border-radius: 500px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 255, 255, 0.08) 100%
+    );
+    margin-top: 20vh;
+    opacity: 0.8;
+    backdrop-filter: blur(20px);
+    margin-bottom: 20vh;
+    /* Note: backdrop-filter has minimal browser support */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    animation-name: my-animation;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    /* other properties */
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @keyframes my-animation {
+    from {
+      background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.15) 0%,
+        rgba(255, 255, 255, 0.08) 100%
+      );
+      width: 300px;
+      top: 10px;
+    }
+    to {
+      background-color: #33475b;
+      width: 50px;
+      top: 100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .input_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20vh;
+  }
+
+  .button_input {
+    border: 1px solid transparent;
+    background-color: white;
+  }
+
+  .input_search {
+    width: 661px;
+    height: 76px;
+    background: #ffffff;
+    box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    padding: 20px;
+
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .earch_cont {
+    background: #010101;
+  }
+  .earch_img {
+    background: url("https://res.cloudinary.com/dvm3hga6j/image/upload/c_scale,h_641,w_452/v1679652267/image_1_1xearth_zy21gw.png");
+    background-size: cover;
+    height: 800px;
+  }
+
+  ..tempet_search {
+    color: #ffffff;
+  }
+  .result_cont {
+    width: 550px;
+    height: 300px;
+    padding: 20vh;
+    border-radius: 500px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 255, 255, 0.08) 100%
+    );
+    margin-top: 20vh;
+    opacity: 0.8;
+    backdrop-filter: blur(20px);
+    margin-bottom: 20vh;
+    /* Note: backdrop-filter has minimal browser support */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    animation-name: my-animation;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    /* other properties */
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @keyframes my-animation {
+    from {
+      background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.15) 0%,
+        rgba(255, 255, 255, 0.08) 100%
+      );
+      width: 300px;
+      top: 10px;
+    }
+    to {
+      background-color: #33475b;
+      width: 50px;
+      top: 100px;
+    }
+  }
+}

@@ -1,0 +1,135 @@
+@media only screen and (min-width: 900px) {
+  .news_title {
+    width: 138px;
+    height: 72px;
+    left: 687px;
+    top: 1025px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+    color: #110041;
+
+    padding-top: 15vh;
+    margin-left: 44vw;
+  }
+
+  .news_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .thunder_delhi {
+    width: 293px;
+    height: 395px;
+    left: 234px;
+    top: 1058.83px;
+    background: url("https://res.cloudinary.com/dvm3hga6j/image/upload/c_scale,h_395,w_296/v1679582817/Rectangle_7_1xthunder_bo5got.png");
+    box-shadow: 0px 16px 69px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+  }
+  .cloud_mainpur {
+    width: 293px;
+    height: 395px;
+    left: 234px;
+    top: 1058.83px;
+    background: url("https://res.cloudinary.com/dvm3hga6j/image/upload/c_scale,h_395,w_296/v1679604187/Rectangle_9_1xcloudy_lemkdg.png");
+    box-shadow: 0px 16px 69px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+  }
+  .summer_mumbai {
+    width: 293px;
+    height: 395px;
+    left: 234px;
+    top: 1058.83px;
+    background: url("https://res.cloudinary.com/dvm3hga6j/image/upload/c_scale,h_395,w_296/v1679604729/pexels-lukas-rodriguez-5618463_t3k0z5.jpg");
+    box-shadow: 0px 16px 69px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+  }
+
+  .news_details {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 40vh;
+    font-family: "Poppins";
+    font-style: normal;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .news_title {
+    width: 138px;
+    height: 72px;
+    left: 687px;
+    top: 1025px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+    color: #110041;
+
+    padding-top: 5vh;
+    margin-left: 30vw;
+  }
+
+  .news_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .thunder_delhi {
+    width: 293px;
+    height: 395px;
+    left: 234px;
+    top: 1058.83px;
+    background: url("https://res.cloudinary.com/dvm3hga6j/image/upload/c_scale,h_395,w_296/v1679582817/Rectangle_7_1xthunder_bo5got.png");
+    box-shadow: 0px 16px 69px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .cloud_mainpur {
+    width: 293px;
+    height: 395px;
+    left: 234px;
+    top: 1058.83px;
+    background: url("https://res.cloudinary.com/dvm3hga6j/image/upload/c_scale,h_395,w_296/v1679604187/Rectangle_9_1xcloudy_lemkdg.png");
+    box-shadow: 0px 16px 69px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .summer_mumbai {
+    width: 293px;
+    height: 395px;
+    left: 234px;
+    top: 1058.83px;
+    background: url("https://res.cloudinary.com/dvm3hga6j/image/upload/c_scale,h_395,w_296/v1679604729/pexels-lukas-rodriguez-5618463_t3k0z5.jpg");
+    box-shadow: 0px 16px 69px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+
+  .news_details {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 40vh;
+    font-family: "Poppins";
+    font-style: normal;
+  }
+}
